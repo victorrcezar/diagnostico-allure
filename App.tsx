@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { TopBar } from './components/sections/TopBar';
-import { Hero } from './components/sections/Hero';
 import { VideoSection } from './components/sections/VideoSection';
 import { Features } from './components/sections/Features';
 import { About } from './components/sections/About';
@@ -33,7 +32,6 @@ function App() {
   return (
     <main className="min-h-screen bg-dark-950">
       <TopBar />
-      <Hero />
       <VideoSection />
       <Features />
       <About />

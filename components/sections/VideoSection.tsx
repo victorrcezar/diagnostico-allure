@@ -78,20 +78,26 @@ export const VideoSection: React.FC = () => {
   const videoUrl = "https://video.wixstatic.com/video/1f17f3_0e38f34bb3d04b37be8d8fa80115fa0c/720p/mp4/file.mp4";
 
   return (
-    <Section className="bg-black relative py-12 md:py-24" id="video-section">
+    <Section className="bg-dark-950 relative pt-32 pb-12 md:pt-40 md:pb-24" id="video-section">
       <div ref={containerRef} className="absolute top-0 w-full h-1"></div>
       
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[60%] bg-blue-900/20 blur-[120px] rounded-full pointer-events-none"></div>
 
       <Container>
-        <div className="flex flex-col items-center justify-center space-y-8 md:space-y-12">
+        <div className="flex flex-col items-center justify-center space-y-6 md:space-y-8">
           
-          <div className="text-center space-y-4 reveal">
-            <h2 className="text-xl md:text-3xl font-medium text-white px-4">
-              Assista o vídeo abaixo para saber mais:
-            </h2>
-            <div className="w-16 md:w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
+          <div className="text-center space-y-6 reveal">
+            <img 
+              src="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png" 
+              alt="Allure Logo" 
+              className="h-16 md:h-20 w-auto mx-auto opacity-100 drop-shadow-lg"
+            />
+            <h1 className="text-[2.2rem] leading-[1.1] sm:text-3xl md:text-5xl font-bold tracking-tight text-white max-w-2xl">
+              Dê um passo <br/>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-400 font-extrabold italic">INTELIGENTE</span> na sua <br/>
+              vida financeira
+            </h1>
           </div>
 
           <div className="w-full max-w-sm mx-auto relative reveal delay-100">
@@ -162,8 +168,11 @@ export const VideoSection: React.FC = () => {
              </div>
           </div>
 
-          <div className="reveal delay-200">
-            <Button size="lg" onClick={handleCtaClick} className="w-full sm:w-auto min-w-[280px] shadow-[0_0_40px_-10px_rgba(37,99,235,0.5)]">
+          <div className="text-center space-y-6 reveal delay-200">
+            <p className="text-sm sm:text-base md:text-lg text-slate-300 leading-relaxed max-w-lg mx-auto font-light drop-shadow-md">
+              A <strong className="text-white font-medium">Allure</strong> analisa sua situação financeira de forma estratégica, revelando como o <strong className="text-white font-medium">mercado financeiro enxerga seu CPF ou CNPJ</strong>.
+            </p>
+            <Button size="lg" onClick={handleCtaClick} className="w-full sm:w-auto min-w-[300px] shadow-[0_0_40px_-10px_rgba(37,99,235,0.5)]">
               GARANTIR MEU DIAGNÓSTICO FINANCEIRO
             </Button>
             <p className="text-center mt-4 text-[10px] md:text-xs text-slate-500 uppercase tracking-widest flex items-center justify-center gap-2">
