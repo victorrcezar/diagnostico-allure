@@ -4,7 +4,7 @@ import { Instagram, ArrowUpRight } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const handleCtaClick = () => {
-    window.open("https://pay.kiwify.com.br/tTl9ga0", "_blank");
+    window.open("https://payfast.greenn.com.br/159276", "_blank");
   };
 
   return (

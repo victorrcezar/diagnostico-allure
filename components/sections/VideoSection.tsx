@@ -72,7 +72,7 @@ export const VideoSection: React.FC = () => {
   };
 
   const handleCtaClick = () => {
-    window.open("https://pay.kiwify.com.br/tTl9ga0", "_blank");
+    window.open("https://payfast.greenn.com.br/159276", "_blank");
   };
 
   const videoUrl = "https://video.wixstatic.com/video/1f17f3_0e38f34bb3d04b37be8d8fa80115fa0c/720p/mp4/file.mp4";
