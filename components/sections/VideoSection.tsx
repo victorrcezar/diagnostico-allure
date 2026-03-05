@@ -117,8 +117,8 @@ export const VideoSection: React.FC = () => {
                      onPause={() => setIsPlaying(false)}
                      onPlay={() => setIsPlaying(true)}
                      playsInline
-                     preload={shouldLoad ? "auto" : "none"} // Critical optimization
-                     src={shouldLoad ? videoUrl : undefined} // Only load source when needed
+                     preload="metadata"
+                     src={`${videoUrl}#t=0.001`}
                    >
                      Seu navegador não suporta a tag de vídeo.
                    </video>
