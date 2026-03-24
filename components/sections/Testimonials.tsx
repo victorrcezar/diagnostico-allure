@@ -2,14 +2,14 @@ import React from 'react';
 import { Container, Section } from '../ui/Section';
 
 const testimonials = [
-  "https://static.wixstatic.com/media/1f17f3_01c5ec0c00074cb4aab417784c8b0328~mv2.jpg",
-  "https://static.wixstatic.com/media/1f17f3_139517192a964b7a89f3f700dd9966b5~mv2.jpg",
-  "https://static.wixstatic.com/media/1f17f3_e2ef59a3d29e48a0ae0a17b5a182db7d~mv2.jpg",
-  "https://static.wixstatic.com/media/1f17f3_d1f2483b603f40718e74ddbe0aac1fa8~mv2.jpg",
-  "https://static.wixstatic.com/media/1f17f3_cbc1980ac5fb4575a38cb79719b740b4~mv2.jpg",
-  "https://static.wixstatic.com/media/1f17f3_15a41280c5e144ef8928db0e6e09929f~mv2.jpg",
-  "https://static.wixstatic.com/media/1f17f3_c7ecaaf082a54f51831213b90aadec43~mv2.jpg",
-  "https://static.wixstatic.com/media/1f17f3_6e3d28d8fd7340ffa01a5f2dea93d612~mv2.jpg"
+  "https://static.wixstatic.com/media/1f17f3_01c5ec0c00074cb4aab417784c8b0328~mv2.jpg/v1/fill/w_320,h_569,al_c,q_80,enc_auto/file.webp",
+  "https://static.wixstatic.com/media/1f17f3_139517192a964b7a89f3f700dd9966b5~mv2.jpg/v1/fill/w_320,h_569,al_c,q_80,enc_auto/file.webp",
+  "https://static.wixstatic.com/media/1f17f3_e2ef59a3d29e48a0ae0a17b5a182db7d~mv2.jpg/v1/fill/w_320,h_569,al_c,q_80,enc_auto/file.webp",
+  "https://static.wixstatic.com/media/1f17f3_d1f2483b603f40718e74ddbe0aac1fa8~mv2.jpg/v1/fill/w_320,h_569,al_c,q_80,enc_auto/file.webp",
+  "https://static.wixstatic.com/media/1f17f3_cbc1980ac5fb4575a38cb79719b740b4~mv2.jpg/v1/fill/w_320,h_569,al_c,q_80,enc_auto/file.webp",
+  "https://static.wixstatic.com/media/1f17f3_15a41280c5e144ef8928db0e6e09929f~mv2.jpg/v1/fill/w_320,h_569,al_c,q_80,enc_auto/file.webp",
+  "https://static.wixstatic.com/media/1f17f3_c7ecaaf082a54f51831213b90aadec43~mv2.jpg/v1/fill/w_320,h_569,al_c,q_80,enc_auto/file.webp",
+  "https://static.wixstatic.com/media/1f17f3_6e3d28d8fd7340ffa01a5f2dea93d612~mv2.jpg/v1/fill/w_320,h_569,al_c,q_80,enc_auto/file.webp"
 ];
 
 // Doubling the array to ensure smooth infinite scroll

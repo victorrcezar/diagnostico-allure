@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
   <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MPJWTLDR');</script>
+    <!-- Google Tag Manager (Deferred) -->
+    <script>
+      function initGTM() {
+        if (window.gtmLoaded) return;
+        window.gtmLoaded = true;
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MPJWTLDR');
+      }
+      
+      // Load GTM on first interaction or after 8 seconds
+      ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function(e) {
+        window.addEventListener(e, initGTM, { once: true, passive: true });
+      });
+      setTimeout(initGTM, 8000);
+    </script>
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,16 +32,15 @@
     <link rel="dns-prefetch" href="https://static.wixstatic.com">
     
     <!-- CRITICAL ASSETS PRELOAD: Carrega as imagens da Hero antes do React iniciar -->
-    <link rel="preload" as="image" href="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png" fetchpriority="high">
-    <link rel="preload" as="image" href="https://static.wixstatic.com/media/1f17f3_0e38f34bb3d04b37be8d8fa80115fa0cf000.jpg" fetchpriority="high">
+    <link rel="preload" as="image" href="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png/v1/fill/w_400,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="https://static.wixstatic.com/media/1f17f3_0e38f34bb3d04b37be8d8fa80115fa0cf000.jpg/v1/fill/w_480,h_854,al_c,q_80,enc_auto/file.webp" fetchpriority="high">
     
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" media="print" onload="this.media='all'" />
     <noscript>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" />
     </noscript>
-  <link rel="stylesheet" href="/index.css">
-</head>
+  </head>
   <body class="bg-dark-950 antialiased overflow-x-hidden selection:bg-cyan-500/30 selection:text-cyan-100">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPJWTLDR"

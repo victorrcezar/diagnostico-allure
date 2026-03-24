@@ -17,8 +17,8 @@ function App() {
     // Load below-the-fold content after a short delay or on first scroll/interaction
     const handleInteraction = () => setLoadBelowFold(true);
     
-    // Fallback: load anyway after 2 seconds if no interaction
-    const timeoutId = setTimeout(() => setLoadBelowFold(true), 2000);
+    // Fallback: load anyway after 15 seconds if no interaction
+    const timeoutId = setTimeout(() => setLoadBelowFold(true), 15000);
 
     window.addEventListener('scroll', handleInteraction, { passive: true, once: true });
     window.addEventListener('mousemove', handleInteraction, { passive: true, once: true });

@@ -22,7 +22,7 @@ export const About: React.FC = () => {
              
              <div className="relative rounded-2xl overflow-hidden shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 ease-out aspect-[4/5]">
                 <img 
-                  src="https://static.wixstatic.com/media/1f17f3_df4e69a02c8d45978ea4e465125576eb~mv2.jpg" 
+                  src="https://static.wixstatic.com/media/1f17f3_df4e69a02c8d45978ea4e465125576eb~mv2.jpg/v1/fill/w_600,h_750,al_c,q_80,enc_auto/file.webp" 
                   alt="Douglas Maia" 
                   className="w-full h-full object-cover scale-100 group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"

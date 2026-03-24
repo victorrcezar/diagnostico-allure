@@ -76,7 +76,7 @@ export const VideoSection: React.FC = () => {
   };
 
   const videoUrl = "https://video.wixstatic.com/video/1f17f3_0e38f34bb3d04b37be8d8fa80115fa0c/720p/mp4/file.mp4";
-  const posterUrl = "https://static.wixstatic.com/media/1f17f3_0e38f34bb3d04b37be8d8fa80115fa0cf000.jpg";
+  const posterUrl = "https://static.wixstatic.com/media/1f17f3_0e38f34bb3d04b37be8d8fa80115fa0cf000.jpg/v1/fill/w_480,h_854,al_c,q_80,enc_auto/file.webp";
 
   return (
     <Section className="bg-dark-950 relative pt-32 pb-12 md:pt-40 md:pb-24" id="video-section">
@@ -90,7 +90,7 @@ export const VideoSection: React.FC = () => {
           
           <div className="text-center space-y-6 reveal">
             <img 
-              src="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png" 
+              src="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png/v1/fill/w_400,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp" 
               alt="Allure Logo" 
               className="h-16 md:h-20 w-auto mx-auto opacity-100 drop-shadow-lg"
               width="200"

@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
           
           <div className="text-center md:text-left space-y-6">
             <img 
-              src="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png" 
+              src="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png/v1/fill/w_300,h_96,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp" 
               alt="Allure Logo" 
               className="h-10 md:h-12 w-auto mx-auto md:mx-0 opacity-100"
               loading="lazy"
@@ -65,7 +65,7 @@ export const Footer: React.FC = () => {
               className="flex items-center gap-2 font-semibold text-slate-400 hover:text-blue-400 transition-colors"
             >
               <img 
-                src="https://static.wixstatic.com/media/1f17f3_d04973c55bd945bb9eaf8e5daf5c5197~mv2.png" 
+                src="https://static.wixstatic.com/media/1f17f3_d04973c55bd945bb9eaf8e5daf5c5197~mv2.png/v1/fill/w_160,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp" 
                 alt="UP! Company Logo" 
                 className="h-6 w-auto object-contain"
                 loading="lazy"
