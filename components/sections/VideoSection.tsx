@@ -119,8 +119,7 @@ export const VideoSection: React.FC = () => {
                      onPause={() => setIsPlaying(false)}
                      onPlay={() => setIsPlaying(true)}
                      playsInline
-                     preload="none"
-                     poster="https://allurerepresentacoes.com.br/wp-content/uploads/2025/06/Black-and-Yellow-Vintage-and-Grungy-Are-we-safe-from-danger-awareness-Video-YouTube-Thumbnail-1.jpg"
+                     preload="metadata"
                      src={`${videoUrl}#t=0.001`}
                    >
                      Seu navegador não suporta a tag de vídeo.
