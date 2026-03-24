@@ -90,7 +90,7 @@ export const VideoSection: React.FC = () => {
           
           <div className="text-center space-y-6 reveal">
             <img 
-              src="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png/v1/fill/w_400,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp" 
+              src="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png/v1/fit/w_400,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/file.webp" 
               alt="Allure Logo" 
               className="h-16 md:h-20 w-auto mx-auto opacity-100 drop-shadow-lg"
               width="200"
