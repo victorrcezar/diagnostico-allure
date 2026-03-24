@@ -14,9 +14,10 @@ function App() {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('active');
+          observer.unobserve(entry.target); // Stop observing once revealed to save CPU
         }
       });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.1, rootMargin: '50px' }); // Add rootMargin to start revealing slightly earlier
 
     // Small delay to ensure DOM is ready
     setTimeout(() => {

@@ -42,7 +42,7 @@ export const Testimonials: React.FC = () => {
         <div className="absolute top-0 right-0 h-full w-12 md:w-40 bg-gradient-to-l from-dark-950 to-transparent z-10"></div>
 
         {/* Scrolling Track */}
-        <div className="flex animate-marquee hover:[animation-play-state:paused] w-[400%] md:w-[200%]">
+        <div className="flex animate-marquee hover:[animation-play-state:paused] w-[400%] md:w-[200%] will-change-transform">
           {marqueeItems.map((src, index) => (
             <div key={index} className="flex-shrink-0 mx-2 md:mx-4 w-[240px] md:w-[320px]">
               <div className="bg-slate-900/50 border border-slate-800 rounded-xl overflow-hidden hover:border-blue-500/50 transition-all duration-300 shadow-lg group">

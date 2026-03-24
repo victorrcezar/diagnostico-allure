@@ -81,8 +81,8 @@ export const VideoSection: React.FC = () => {
     <Section className="bg-dark-950 relative pt-32 pb-12 md:pt-40 md:pb-24" id="video-section">
       <div ref={containerRef} className="absolute top-0 w-full h-1"></div>
       
-      {/* Background Glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[60%] bg-blue-900/20 blur-[120px] rounded-full pointer-events-none"></div>
+      {/* Background Glow - Optimized for mobile */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[60%] bg-blue-900/20 blur-[60px] md:blur-[120px] rounded-full pointer-events-none"></div>
 
       <Container>
         <div className="flex flex-col items-center justify-center space-y-6 md:space-y-8">
@@ -93,7 +93,7 @@ export const VideoSection: React.FC = () => {
               alt="Allure Logo" 
               className="h-16 md:h-20 w-auto mx-auto opacity-100 drop-shadow-lg"
             />
-            <h1 className="text-[2.2rem] leading-[1.1] sm:text-3xl md:text-5xl font-bold tracking-tight text-white max-w-2xl">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1] font-bold tracking-tight text-white max-w-2xl">
               Dê um passo <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-400 font-extrabold italic">INTELIGENTE</span> na sua <br/>
               vida financeira

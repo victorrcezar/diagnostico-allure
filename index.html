@@ -22,7 +22,6 @@
     
     <!-- CRITICAL ASSETS PRELOAD: Carrega as imagens da Hero antes do React iniciar -->
     <link rel="preload" as="image" href="https://static.wixstatic.com/media/1f17f3_263dada16fd9463b8e8528e4974bdf75~mv2.png" fetchpriority="high">
-    <link rel="preload" as="image" href="https://allurerepresentacoes.com.br/wp-content/uploads/2025/06/Black-and-Yellow-Vintage-and-Grungy-Are-we-safe-from-danger-awareness-Video-YouTube-Thumbnail-1.jpg">
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
     <script>
@@ -112,7 +111,8 @@
       .reveal {
         opacity: 0;
         transform: translateY(30px);
-        transition: all 0.8s ease-out;
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        will-change: opacity, transform;
       }
       .reveal.active {
         opacity: 1;
