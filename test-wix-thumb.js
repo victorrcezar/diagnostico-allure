@@ -1,0 +1,1 @@
+fetch('https://video.wixstatic.com/video/1f17f3_0e38f34bb3d04b37be8d8fa80115fa0c/480p/mp4/file.mp4').then(res => console.log(res.status)).catch(console.error);

@@ -76,6 +76,7 @@ export const VideoSection: React.FC = () => {
   };
 
   const videoUrl = "https://video.wixstatic.com/video/1f17f3_0e38f34bb3d04b37be8d8fa80115fa0c/720p/mp4/file.mp4";
+  const posterUrl = "https://static.wixstatic.com/media/1f17f3_0e38f34bb3d04b37be8d8fa80115fa0cf000.jpg";
 
   return (
     <Section className="bg-dark-950 relative pt-32 pb-12 md:pt-40 md:pb-24" id="video-section">
@@ -94,7 +95,7 @@ export const VideoSection: React.FC = () => {
               className="h-16 md:h-20 w-auto mx-auto opacity-100 drop-shadow-lg"
               width="200"
               height="80"
-              fetchpriority="high"
+              fetchPriority="high"
             />
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1] font-bold tracking-tight text-white max-w-2xl">
               Dê um passo <br/>
@@ -120,8 +121,9 @@ export const VideoSection: React.FC = () => {
                      onPause={() => setIsPlaying(false)}
                      onPlay={() => setIsPlaying(true)}
                      playsInline
-                     preload="metadata"
-                     src={`${videoUrl}#t=0.001`}
+                     preload="none"
+                     poster={posterUrl}
+                     src={videoUrl}
                    >
                      Seu navegador não suporta a tag de vídeo.
                    </video>
