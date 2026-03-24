@@ -94,6 +94,7 @@ export const VideoSection: React.FC = () => {
               className="h-16 md:h-20 w-auto mx-auto opacity-100 drop-shadow-lg"
               width="200"
               height="80"
+              fetchpriority="high"
             />
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1] font-bold tracking-tight text-white max-w-2xl">
               Dê um passo <br/>
