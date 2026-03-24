@@ -92,6 +92,8 @@ export const VideoSection: React.FC = () => {
               src="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png" 
               alt="Allure Logo" 
               className="h-16 md:h-20 w-auto mx-auto opacity-100 drop-shadow-lg"
+              width="200"
+              height="80"
             />
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1] font-bold tracking-tight text-white max-w-2xl">
               Dê um passo <br/>
@@ -117,7 +119,8 @@ export const VideoSection: React.FC = () => {
                      onPause={() => setIsPlaying(false)}
                      onPlay={() => setIsPlaying(true)}
                      playsInline
-                     preload="metadata"
+                     preload="none"
+                     poster="https://allurerepresentacoes.com.br/wp-content/uploads/2025/06/Black-and-Yellow-Vintage-and-Grungy-Are-we-safe-from-danger-awareness-Video-YouTube-Thumbnail-1.jpg"
                      src={`${videoUrl}#t=0.001`}
                    >
                      Seu navegador não suporta a tag de vídeo.

@@ -27,6 +27,8 @@ export const About: React.FC = () => {
                   className="w-full h-full object-cover scale-100 group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                   decoding="async"
+                  width="400"
+                  height="500"
                 />
                 
                 {/* Professional Overlay */}

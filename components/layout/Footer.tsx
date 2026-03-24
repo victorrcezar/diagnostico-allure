@@ -19,6 +19,9 @@ export const Footer: React.FC = () => {
               src="https://static.wixstatic.com/media/1f17f3_c74aacad78ab41cbbf68badd4a6186cc~mv2.png" 
               alt="Allure Logo" 
               className="h-10 md:h-12 w-auto mx-auto md:mx-0 opacity-100"
+              loading="lazy"
+              width="150"
+              height="48"
             />
             <p className="max-w-xs text-slate-500 font-light mx-auto md:mx-0">
               Inteligência financeira para quem busca recuperar o controle do seu patrimônio e reputação.
@@ -65,6 +68,9 @@ export const Footer: React.FC = () => {
                 src="https://static.wixstatic.com/media/1f17f3_d04973c55bd945bb9eaf8e5daf5c5197~mv2.png" 
                 alt="UP! Company Logo" 
                 className="h-6 w-auto object-contain"
+                loading="lazy"
+                width="80"
+                height="24"
               />
               UP! Company
             </a>
